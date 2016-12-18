@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/andysctu/go-tunnel/src",
+	"ImportPath": "github.com/andysctu/go-tunnel",
 	"GoVersion": "go1.5.1",
 	"Deps": [
 		{

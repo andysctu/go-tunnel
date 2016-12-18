@@ -1,8 +1,8 @@
 package client
 
 import (
-	pb "github.com/andysctu/go-tunnel/src/protobuf"
-	"github.com/andysctu/go-tunnel/src/src/helper"
+	"github.com/andysctu/go-tunnel/helper"
+	pb "github.com/andysctu/go-tunnel/protobuf"
 	"github.com/golang/protobuf/proto"
 	"io"
 	"log"

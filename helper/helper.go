@@ -2,7 +2,7 @@ package helper
 
 import (
 	"errors"
-	pb "github.com/andysctu/go-tunnel/src/protobuf"
+	pb "github.com/andysctu/go-tunnel/protobuf"
 	"github.com/golang/protobuf/proto"
 	"net"
 )

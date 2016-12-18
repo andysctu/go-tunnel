@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "github.com/andysctu/go-tunnel/src/server"
+	. "github.com/andysctu/go-tunnel/server"
 	"log"
 	"net"
 	"os"

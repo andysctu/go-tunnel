@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "github.com/andysctu/go-tunnel/src/client"
+	. "github.com/andysctu/go-tunnel/client"
 	"github.com/codegangsta/cli"
 	"log"
 	"net"
