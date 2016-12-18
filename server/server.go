@@ -8,6 +8,7 @@ import (
 	"io"
 	"log"
 	"net"
+	"os"
 	"strconv"
 )
 
@@ -26,9 +27,13 @@ func (s *GoRpsServer) Start() (*net.TCPAddr, error) {
 	s.clientToUserConn = make(map[*net.TCPConn][]*net.TCPConn)
 	s.clientToUserListener = make(map[*net.TCPConn]*net.TCPListener)
 
+	port := 34567
+	if os.Getenv("PORT") != "" {
+		port, _ = strconv.Atoi(os.Getenv("PORT"))
+	}
 	address := &net.TCPAddr{
 		IP:   net.IPv4(0, 0, 0, 0),
-		Port: 34567,
+		Port: port,
 	}
 
 	var err error
