@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package protobuf;
+
+message TestMessage {
+	int32 id = 1;
+	bytes data = 2;
+	enum EventType {
+		ConnectionOpen = 0;
+	 	ConnectionClose = 1;
+	 	Data = 2;
+	}
+	EventType type = 3;
+}
