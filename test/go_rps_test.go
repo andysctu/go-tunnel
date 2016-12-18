@@ -2,11 +2,11 @@ package go_rps_test
 
 import (
 	"fmt"
+	. "github.com/andysctu/go-tunnel/src/client"
+	. "github.com/andysctu/go-tunnel/src/server"
+	"github.com/andysctu/go-tunnel/src/test/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/originate/go_rps/client"
-	. "github.com/originate/go_rps/server"
-	"github.com/originate/go_rps/test/mocks"
 	"io"
 	"net"
 	"time"

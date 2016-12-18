@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/Originate/go_rps/helper"
-	pb "github.com/Originate/go_rps/protobuf"
+	"github.com/andysctu/go_rps/src/helper"
+	pb "github.com/andysctu/go_rps/src/protobuf"
 	"github.com/golang/protobuf/proto"
 	"io"
 	"log"

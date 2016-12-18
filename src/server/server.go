@@ -2,8 +2,8 @@ package server
 
 import (
 	"fmt"
-	"github.com/Originate/go_rps/helper"
-	pb "github.com/Originate/go_rps/protobuf"
+	"github.com/andysctu/go-tunnel/src/helper"
+	pb "github.com/andysctu/go-tunnel/src/protobuf"
 	"github.com/golang/protobuf/proto"
 	"io"
 	"log"

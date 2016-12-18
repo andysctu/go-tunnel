@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "github.com/Originate/go_rps/server"
+	. "github.com/andysctu/go-tunnel/src/server"
 	"log"
 	"net"
 	"os"
