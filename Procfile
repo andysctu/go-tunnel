@@ -1,1 +1,1 @@
-web: go-tunnel
+web: main.go 
